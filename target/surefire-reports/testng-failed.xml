@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PMFBY]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="PASSWORD" value="hsr09904013"/>
+  <parameter name="USER_NAME" value="hrmantra09@gmail.com"/>
+  <test thread-count="5" name="LOGIN(failed)" verbose="0">
+    <classes>
+      <class name="com.facebook.PostStatus">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="postStatus"/>
+        </methods>
+      </class> <!-- com.facebook.PostStatus -->
+    </classes>
+  </test> <!-- LOGIN(failed) -->
+</suite> <!-- Failed suite [PMFBY] -->

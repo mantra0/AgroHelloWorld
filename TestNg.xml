@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "PMFBY">
+    <parameter name="USER_NAME" value="email"/>
+    <parameter name="PASSWORD" value="password"/>
+    <test name="LOGIN">
+        <classes>
+            <class name="com.facebook.PostStatus"/>
+        </classes>
+    </test>
+</suite>
